@@ -74,9 +74,23 @@
             opacity: 0 !important;
             pointer-events: none !important;
         }
-    </style>
+        #absolute{
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 100vh;
+            width: 100vw;
+            background: #fff;
+            z-index: 1000000000
+        }
+        </style>
 	</head>
     <body class="light-page index">
+    <div id="absolute" ></div>
 	<div id="wrap">
 			<header id="header-img-timer" class="pt-75 pb-75 dark text-left">
     			<div class="container">
